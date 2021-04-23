@@ -1,0 +1,72 @@
+$('.hero-xyz').owlCarousel({
+    autoplay:true,
+    loop:true,
+    margin:20,
+    dots:false,
+    nav:false,
+    responsive:{
+        320:{
+            items:1
+        },
+        480:{
+            items:1
+        },
+        768:{
+            items:3
+        },
+        994:{
+            items:3
+        },
+        1200:{
+            items:3
+        }
+    }
+})
+$('.cover').owlCarousel({
+    autoplay:true,
+    loop:true,
+    margin:20,
+    dots:false,
+    nav:false,
+    responsive:{
+        320:{
+            items:1
+        },
+        480:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        994:{
+            items:1
+        },
+        1200:{
+            items:1
+        }
+    }
+})
+$('.review-xyz').owlCarousel({
+    autoplay:true,
+    loop:true,
+    margin:20,
+    dots:false,
+    nav:false,
+    responsive:{
+        320:{
+            items:1
+        },
+        480:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        994:{
+            items:3
+        },
+        1200:{
+            items:3
+        }
+    }
+})
